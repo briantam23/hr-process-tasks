@@ -49,7 +49,7 @@ function PermanentDrawerLeft({ classes, stepNum, process, steps }) {
       <AppBar position="fixed" className={classes.appBar} style={{ 'backgroundColor': 'steelblue' }}>
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Coding Challenge - Brian Tam
+            Human Resources Tasks / Processes
           </Typography>
         </Toolbar>
       </AppBar>
