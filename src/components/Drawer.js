@@ -88,7 +88,9 @@ function PermanentDrawerLeft({ classes, stepNum, process, steps }) {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-            <ProcessFields process={process} steps={steps} />
+          <ProcessFields process={process} steps={steps} />
+          <br />
+          <StepFields stepNum={stepNum} steps={steps} />
       </main>
     </div>
   );
