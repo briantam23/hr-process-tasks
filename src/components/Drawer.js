@@ -13,6 +13,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
 import { Link } from 'react-router-dom';
+import ProcessFields from './ProcessFields';
+import StepFields from './StepFields';
 
 
 const drawerWidth = 340;
@@ -86,7 +88,7 @@ function PermanentDrawerLeft({ classes, stepNum, process, steps }) {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-        <hr/>
+            <ProcessFields process={process} steps={steps} />
       </main>
     </div>
   );
