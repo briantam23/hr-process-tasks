@@ -1,0 +1,14 @@
+{
+    "teamName": "btam",
+    "processName": "onboard-employee",
+    "displayName": "Onboard New Employee",
+    "description": "Onboard a new employee. Assumes that the offer letter has already been made and accepted.",
+    "category": "HR",
+    "createdBy": "brian",
+    "upcoming": [],
+    "priority": "medium",
+    "roles": [],
+    "processID": "6f1a3287-f456-4fbd-889e-c944a9a72e1d",
+    "owner": "brian",
+    "createdDate": "2019-03-16T14:58:09.236Z"
+}
