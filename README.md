@@ -1,4 +1,4 @@
-# Human Resources Processes / Tasks App
+# 👫 Human Resources Processes / Tasks App
 
 ## Setting up
 
