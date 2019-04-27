@@ -1,7 +1,24 @@
 {
     "name": "hr-processes-tasks",
+    "author": {
+        "name": "Brian Tam",
+        "email": "briantam23@gmail.com",
+        "url": "https://briantam23.github.io"
+      },
+    "contributors": [
+    {
+        "name": "Brian Tam",
+        "email": "briantam23@gmail.com",
+        "url": "https://briantam23.github.io"
+    }
+    ],
+    "homepage": "https://btam-hr-processes-tasks.herokuapp.com",
     "version": "1.0.0",
-    "description": "",
+    "description": "A Single Page App created with React, Express, & Material-UI, along with multiple Testing libraries (Enzyme, Mocha, Chai, Sinon).",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/briantam23/hr-process-tasks.git"
+    },
     "main": "server/index.js",
     "scripts": {
         "start": "node ./server/index.js",
@@ -11,6 +28,13 @@
         "start:dev": "npm run build & nodemon server/index.js --ignore dist --ignore src",
         "test": "mocha ./test/*.test.js --watch --require babel-polyfill --compilers js:babel-register"
     },
+    "keywords": [
+        "react",
+        "nodejs",
+        "enzyme",
+        "material-ui"
+    ],
+    "license": "ISC",
     "babel": {
         "presets": [
             "env",
@@ -46,7 +70,5 @@
         "sinon": "^7.2.3",
         "webpack": "^4.28.4",
         "webpack-cli": "^3.2.1"
-    },
-    "author": "",
-    "license": "ISC"
+    }
 }
